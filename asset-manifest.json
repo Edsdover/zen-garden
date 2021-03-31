@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/zen-garden/static/css/main.f8e24d17.chunk.css",
+    "main.js": "/zen-garden/static/js/main.8e622715.chunk.js",
+    "main.js.map": "/zen-garden/static/js/main.8e622715.chunk.js.map",
+    "runtime-main.js": "/zen-garden/static/js/runtime-main.6fb9104c.js",
+    "runtime-main.js.map": "/zen-garden/static/js/runtime-main.6fb9104c.js.map",
+    "static/js/2.07d2fdcd.chunk.js": "/zen-garden/static/js/2.07d2fdcd.chunk.js",
+    "static/js/2.07d2fdcd.chunk.js.map": "/zen-garden/static/js/2.07d2fdcd.chunk.js.map",
+    "index.html": "/zen-garden/index.html",
+    "static/css/main.f8e24d17.chunk.css.map": "/zen-garden/static/css/main.f8e24d17.chunk.css.map",
+    "static/js/2.07d2fdcd.chunk.js.LICENSE.txt": "/zen-garden/static/js/2.07d2fdcd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fb9104c.js",
+    "static/js/2.07d2fdcd.chunk.js",
+    "static/css/main.f8e24d17.chunk.css",
+    "static/js/main.8e622715.chunk.js"
+  ]
+}
