@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <div>
       <header className='header' style={headerStyle}>
-        <Link className='homeLink' to='/'><img className='homeLinkImg' alt='Home' src='https://www.realtor.com/realtor-com.png'></img></Link>
+        <Link className='homeLink' to='/zen-garden'><img className='homeLinkImg' alt='Home' src='https://www.realtor.com/realtor-com.png'></img></Link>
         <h1 style={{ fontSize: "2rem", fontWeight: "600", lineHeight: "1em", color: "#777777", textAlign: "center" }}>Earthquake Zen Garden</h1>
         <Link className='profileLink' to='/profile'>Welcome {data.profile.firstName}</Link>
       </header>

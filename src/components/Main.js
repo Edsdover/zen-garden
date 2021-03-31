@@ -7,9 +7,9 @@ import Details from './Details'
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Landing}/>
+      <Route exact path='/zen-garden' component={Landing}/>
       <Route path='/profile' component={Profile}/>
-      <Route path='/:id' component={Details}/>
+      <Route path='/details/:id' component={Details}/>
     </Switch>
   </main>
 )

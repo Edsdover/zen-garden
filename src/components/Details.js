@@ -14,9 +14,12 @@ const EarthquakeDetails = () => {
   console.log(quakeInfo)
   useEffect(() => {
     const propsId = location.pathname.split('/')[2];
-    setQuakeInfo(earthquakes.filter(function (quake) { 
-      return quake.id === propsId; 
-    }))
+    console.log(propsId);
+    if (propsId) {
+      setQuakeInfo(earthquakes.filter(function (quake) { 
+        return quake.id === propsId; 
+      }))
+    }
     return () => {
     }
   }, [earthquakes, location.pathname])
