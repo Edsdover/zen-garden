@@ -9,9 +9,9 @@ import "../css/details.css"
 const EarthquakeDetails = () => {
   const [earthquakes] = useState(data.data.features)
 
-  const [quakeInfo, setQuakeInfo] = useState()
+  const [quakeInfo, setQuakeInfo] = useState([data.data.features[0]])
   const location = useLocation();
-  
+  console.log(quakeInfo)
   useEffect(() => {
     const propsId = location.pathname.split('/')[2];
     setQuakeInfo(earthquakes.filter(function (quake) { 
@@ -20,8 +20,7 @@ const EarthquakeDetails = () => {
     return () => {
     }
   }, [earthquakes, location.pathname])
-
-  if (!quakeInfo[0]) {
+  if (!quakeInfo) {
     return (
       <div>
         <p>Loading....</p>
