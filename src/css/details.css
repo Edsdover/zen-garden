@@ -1,0 +1,30 @@
+.info {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #777777;
+}
+
+.title {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.deatilsHeader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.detailsInfo {
+    width: 30%;
+}
+
+.detailsTitles {
+    width: 10%;
+}

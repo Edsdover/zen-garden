@@ -1,0 +1,38 @@
+.profileImg {
+    height: 170px;
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.profileHeader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.imgDiv {
+    width: 185px;
+}
+
+.profileTitles {
+    width: 100px;
+}
+
+.profileInfo {
+    width: 25%;
+}
+
+.info {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #777777;
+}
+
+.title {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}

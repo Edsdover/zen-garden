@@ -1,0 +1,17 @@
+.header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeLink {
+    margin-left: 1em;
+}
+
+.profileLink {
+    margin-right: 1em;
+}
+
+.homeLinkImg {
+    height: 50px;
+    width: 50px;
+}

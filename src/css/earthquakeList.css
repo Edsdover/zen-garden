@@ -1,0 +1,11 @@
+.headerBlock {
+    display: flex;
+    justify-content: space-around;
+    font-size: .75em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.listHeader {
+    padding-left: 36px;
+}

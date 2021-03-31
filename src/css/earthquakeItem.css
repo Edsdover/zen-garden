@@ -1,0 +1,31 @@
+.itemContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: .2em;
+}
+
+.linkButton {
+    text-align: left;
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .linkButton:hover,
+  .linkButton:focus {
+    text-decoration: none;
+  }
+
+  .linkMag {
+    width: 10%;
+  }
+
+  .linkTime {
+    text-align: right;
+    width: 40%;
+  }
