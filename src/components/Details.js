@@ -21,7 +21,7 @@ const EarthquakeDetails = () => {
     }
   }, [earthquakes, location.pathname])
 
-  if (!quakeInfo) {
+  if (!quakeInfo[0]) {
     return (
       <div>
         <p>Loading....</p>
