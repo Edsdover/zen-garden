@@ -11,10 +11,8 @@ const EarthquakeDetails = () => {
 
   const [quakeInfo, setQuakeInfo] = useState([data.data.features[0]])
   const location = useLocation();
-  console.log(quakeInfo)
   useEffect(() => {
     const propsId = location.pathname.split('/')[2];
-    console.log(propsId);
     if (propsId) {
       setQuakeInfo(earthquakes.filter(function (quake) { 
         return quake.id === propsId; 

@@ -8,7 +8,7 @@ const EarthquakeList = props => {
     return (
       <ul>
         <div className='headerBlock'>
-          <p className='listHeader'>Title</p>
+          <p onClick={() => props.toggleHeaderProps('title')} className='listHeader'>Title</p>
           <p onClick={() => props.toggleHeaderProps('mag')} className='listHeader'>Magnitude</p>
           <p onClick={() => props.toggleHeaderProps('time')} className='listHeader'>Time</p>
         </div>

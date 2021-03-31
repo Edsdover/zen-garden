@@ -23,15 +23,27 @@ const Landing = () => {
     history.push(`/details/${id}`);
   }
 
-  // Wanted to do more here and make the title sortable.
   const toggleHeader = header => {
     let newOrder = [];
+    if (header === 'title') {
+      newOrder = earthquakes.sort((a,b) => {
+        const textA = a.properties[header].split(' of ')[1];
+        const textB = b.properties[header].split(' of ')[1];
+
+        if (sortConfig === true) {
+          setSortConfig(false);
+          return (textA < textB) ? 1 : (textA > textB) ? -1 : 0;
+        }
+        setSortConfig(true);
+        return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+      })
+    }
     newOrder = earthquakes.sort((a,b) => {
-      setSortConfig(true);
       if (sortConfig === true) {
         setSortConfig(false);
         return b.properties[header] - a.properties[header];
       }
+      setSortConfig(true);
       return a.properties[header] - b.properties[header];
     })
     setEarthquakes([...newOrder]);

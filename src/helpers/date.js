@@ -9,7 +9,7 @@ export function convertDate(time) {
 
     if (timeOfDay.split(':')[0] > 12) {
         suffix = 'PM';
-        const standardHour = `${timeOfDay.split(':').splice(0,1).toString() -12}:${timeOfDay.split(':').splice(1,1).toString()}`
+        const standardHour = `${timeOfDay.split(':').splice(0,1).toString() - 12}:${timeOfDay.split(':').splice(1,1).toString()}`
         formattedDateString = `${month} ${dateString.getDay()}, ${dateString.getFullYear()}, ${standardHour} ${suffix}`;
     }
     return formattedDateString;
